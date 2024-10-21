@@ -6,9 +6,9 @@
 
 <br>
     
-# Gestão do Agronegócio em Python
+# A Eletronica de uma IA
     
-## Grupo 24
+## Grupo 47
 
 ## ‍Integrantes:
 - [Caio Rodrigues Castro](https://www.linkedin.com/in/caiorcastro/)
@@ -24,4 +24,5 @@
 - [André Godoi Chiovato](https://www.linkedin.com/in/profandregodoi/)
 
 ## Descrição#
+
 O objetivo deste projeto é criar um sistema inteligente de monitoramento agrícola usando o microcontrolador ESP32 e quatro sensores diferentes descritos no PDF. O sistema será capaz de coletar dados do ambiente e tomar decisões automatizadas para otimizar o uso de recursos na agricultura, como a irrigação e o controle de condições climáticas.
