@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "author": "Felipe Soares",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 316.8, "left": 62.44, "attrs": {} },
+      {
+        "type": "wokwi-dht22",
+        "id": "dht1",
+        "top": 216,
+        "left": -190.5,
+        "rotate": 270,
+        "attrs": {}
+      },
+      { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 68.7, "left": 130.3, "attrs": {} },
+      { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 128.8, "left": 395.82, "attrs": {} },
+      {
+        "type": "wokwi-photoresistor-sensor",
+        "id": "ldr1",
+        "top": 707.3,
+        "left": 33.1,
+        "rotate": 270,
+        "attrs": {}
+      }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "dht1:VCC", "esp:3V3", "red", [ "h19.2", "v57.6" ] ],
+      [ "dht1:GND", "esp:GND.2", "black", [ "h38.4", "v28.8", "h134.4", "v57.6" ] ],
+      [
+        "ultrasonic1:VCC",
+        "esp:3V3",
+        "red",
+        [ "v19.2", "h57.6", "v249.6", "h-144", "v-105.6", "h-115.35" ]
+      ],
+      [ "ultrasonic1:TRIG", "esp:5", "yellow", [ "v9.6", "h57.2", "v278.4" ] ],
+      [ "pir1:VCC", "esp:3V3", "red", [ "v76.8", "h-364.95" ] ],
+      [ "pir1:GND", "esp:GND.3", "black", [ "v172.8", "h-288.26" ] ],
+      [ "pir1:OUT", "esp:4", "yellow", [ "v0" ] ],
+      [ "ultrasonic1:GND", "esp:GND.2", "black", [ "v0" ] ],
+      [ "ldr1:GND", "esp:GND.3", "black", [ "v-28.8", "h76.4", "v-220.8" ] ],
+      [ "dht1:SDA", "esp:15", "yellow", [ "h28.8", "v268.7", "h249.6", "v-57.6" ] ],
+      [ "ultrasonic1:ECHO", "esp:18", "yellow", [ "v182.4", "h-0.8", "v57.6" ] ],
+      [ "ldr1:VCC", "esp:3V3", "red", [ "v-9.6", "h-38.55" ] ],
+      [ "ldr1:DO", "esp:19", "yellow", [ "v-19.2", "h76.2", "v-220.8" ] ],
+      [ "ldr1:AO", "esp:34", "green", [ "h-115.9", "v-268.8" ] ]
+    ],
+    "dependencies": {}
+  }
+
+  
