@@ -29,16 +29,6 @@
 
 Este projeto tem como objetivo a criação de um sistema de monitoramento utilizando a plataforma ESP32 e sensores específicos para ambientes. O circuito foi desenvolvido e simulado na plataforma Wokwi.com, onde cada sensor possui uma função específica dentro do sistema, permitindo o monitoramento de variáveis ambientais como temperatura, umidade e luminosidade.
 
-## 📁 Estrutura de Pastas
-
-- **.github**: Arquivos de configuração para automação do GitHub.
-- **assets**: Imagens e outros recursos visuais.
-- **config**: Arquivos de configuração do projeto.
-- **document**: Documentação adicional.
-- **scripts**: Scripts auxiliares, como deploys e backups.
-- **src**: Código-fonte do projeto.
-- **README.md**: Guia e explicação geral do projeto.
-
 ## 🔧 Como Executar o Código
 
 ### Pré-requisitos
