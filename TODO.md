@@ -5,25 +5,25 @@
 - [x] Set up the ESP32 board on Wokwi simulator.
 - [x] Integrate all four sensors (DHT22, HC-SR04, PIR, and LDR) in the simulation environment.
 - [x] Create a GitHub repository for the project.
-  - [ ] Structure the repository into `/src`, `/docs`, and `/tests` folders.
+  - [x] Structure the repository into `/src`, `/docs`, and `/tests` folders.
   - [ ] Include a `README.md` file with the initial project overview.
 
 ## 2. Sensor Data Collection
-- [ ] Write code for DHT22 sensor to measure temperature and humidity.
-- [ ] Implement HC-SR04 sensor for monitoring water levels.
-- [ ] Set up PIR sensor to detect motion (e.g., animals or intruders).
-- [ ] Integrate LDR sensor to measure sunlight intensity.
+- [x] Write code for DHT22 sensor to measure temperature and humidity.
+- [x] Implement HC-SR04 sensor for monitoring water levels.
+- [x] Set up PIR sensor to detect motion (e.g., animals or intruders).
+- [x] Integrate LDR sensor to measure sunlight intensity.
 
 ## 3. Core Functionalities
 
 ### 3.1 Monitoring and Alerts
-- [ ] Implement monitoring of temperature and humidity (DHT22).
+- [x] Implement monitoring of temperature and humidity (DHT22).
 - [ ] Set up automatic decision-making for irrigation based on the climate data.
 - [ ] Create alerts for unusual temperature or humidity levels.
 
 ### 3.2 Irrigation System
 
-- [ ] Implement water level control using the HC-SR04 sensor.
+- [x] Implement water level control using the HC-SR04 sensor.
 - [ ] Automate irrigation based on water availability and sensor feedback.
 
 ### 3.3 Security Feature
@@ -60,7 +60,7 @@
 ## 6. Version Control
 
 - [ ] Make regular commits with clear descriptions.
-- [ ] Use a separate branch (e.g., `develop`) for development.
+- [x] Use a separate branch (e.g., `develop`) for development.
 - [ ] Submit Pull Requests for review before merging to `main`.
 
 ## 7. Final Submission
