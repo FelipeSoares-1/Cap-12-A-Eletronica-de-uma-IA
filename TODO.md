@@ -18,23 +18,23 @@
 
 ### 3.1 Monitoring and Alerts
 - [x] Implement monitoring of temperature and humidity (DHT22).
-- [ ] Set up automatic decision-making for irrigation based on the climate data.
+- [x] Set up automatic decision-making for irrigation based on the climate data.
 - [ ] Create alerts for unusual temperature or humidity levels.
 
 ### 3.2 Irrigation System
 
 - [x] Implement water level control using the HC-SR04 sensor.
-- [ ] Automate irrigation based on water availability and sensor feedback.
+- [] Automate irrigation based on water availability and sensor feedback.
 
 ### 3.3 Security Feature
 
-- [ ] Write code for motion detection using the PIR sensor.
-- [ ] Set up alerts or responses when motion is detected.
+- [x] Write code for motion detection using the PIR sensor.
+- [x] Set up alerts or responses when motion is detected.
 
 ### 3.4 Light-Based Irrigation Adjustment
 
-- [ ] Implement light intensity measurement (LDR).
-- [ ] Adjust irrigation based on sunlight exposure.
+- [x] Implement light intensity measurement (LDR).
+- [x] Adjust irrigation based on sunlight exposure.
 
 ## 4. Testing
 
@@ -59,7 +59,7 @@
 
 ## 6. Version Control
 
-- [ ] Make regular commits with clear descriptions.
+- [x] Make regular commits with clear descriptions.
 - [x] Use a separate branch (e.g., `develop`) for development.
 - [ ] Submit Pull Requests for review before merging to `main`.
 
