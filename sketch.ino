@@ -58,9 +58,6 @@ void controleIrrigacao() {
   digitalWrite(TRIG_PIN, LOW);
 
   long duracao = pulseIn(ECHO_PIN, HIGH);
-  
-
-  long duracao = pulseIn(ECHO_PIN, HIGH);
   float distancia = duracao * 0.034 / 2;  // Converte para cm
 
   Serial.printf("Nível do tanque: %.2f cm\n", distancia);
