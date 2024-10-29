@@ -39,11 +39,10 @@ Este projeto tem como objetivo a criação de um sistema de monitoramento utiliz
 ### Passo a Passo
 1. Clone o repositório:
    ```bash
-   git clone <link-do-repositorio>
-   cd <nome-do-repositorio>
+   git clone https://github.com/farm-solutions/Cap-12-A-Eletronica-de-uma-IA.git
+   cd Cap-12-A-Eletronica-de-uma-IA
    ```
-2. Abra o circuito no Wokwi:
-   - Acesse Wokwi.com e importe o arquivo JSON fornecido no repositório.
+2. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/412368890543526913)
 3. Execute a simulação clicando em "Play".
 4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
 
@@ -57,14 +56,7 @@ Cada sensor desempenha uma função crítica no sistema, permitindo a coleta de 
 
 ## 📦 Testes Realizados
 
-Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor. Prints do Monitor Serial estão disponíveis na pasta `document/test-results`.
-
-## 🗃 Histórico de Lançamentos
-
-* 1.0.0 - 21/10/2024
-    * Versão inicial do sistema com todos os sensores funcionando.
-* 0.5.0 - XX/XX/2024
-    * Ajustes nas leituras dos sensores.
+Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor. Prints do Monitor Serial estão disponíveis na pasta `tests/`.
 
 ## 📋 Licença
 
