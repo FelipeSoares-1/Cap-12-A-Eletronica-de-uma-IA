@@ -24,7 +24,7 @@
 ### 3.2 Irrigation System
 
 - [x] Implement water level control using the HC-SR04 sensor.
-- [] Automate irrigation based on water availability and sensor feedback.
+- [x] Automate irrigation based on water availability and sensor feedback.
 
 ### 3.3 Security Feature
 
@@ -46,16 +46,16 @@
 ## 5. Documentation
 
 - [ ] Complete detailed documentation in `/docs`.
+  - [ ] Add description about the system
   - [ ] Include descriptions of sensors and their roles.
-  - [ ] Add wiring diagrams or circuit design for each sensor.
-  - [ ] Provide instructions for running the project in Wokwi.
-  - [ ] Detail the steps for installation and dependencies.
 - [ ] Ensure the `README.md` includes:
-  - [ ] Project objective.
-  - [ ] Circuit diagram.
-  - [ ] Sensor roles and functions.
-  - [ ] Instructions for Wokwi setup and simulation.
-  - [ ] Test results with serial monitor screenshots.
+  - [ ] Project objective;
+  - [ ] Complete circuit design with the sensors used;
+  - [ ] Description of the role of each sensor in the system;
+  - [ ] How to configure and run the project on Wokwi and ESP32;
+  - [ ] Installation instructions and dependencies;
+  - [ ] Tests performed, with prints of the Serial Monitor showing the system messages;
+- [ ] Well-commented code, explaining the logic behind the main functions and the integration between the sensors.
 
 ## 6. Version Control
 
