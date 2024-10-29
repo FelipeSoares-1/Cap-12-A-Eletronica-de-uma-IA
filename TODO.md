@@ -6,7 +6,7 @@
 - [x] Integrate all four sensors (DHT22, HC-SR04, PIR, and LDR) in the simulation environment.
 - [x] Create a GitHub repository for the project.
   - [x] Structure the repository into `/src`, `/docs`, and `/tests` folders.
-  - [ ] Include a `README.md` file with the initial project overview.
+  - [x] Include a `README.md` file with the initial project overview.
 
 ## 2. Sensor Data Collection
 - [x] Write code for DHT22 sensor to measure temperature and humidity.
@@ -19,7 +19,7 @@
 ### 3.1 Monitoring and Alerts
 - [x] Implement monitoring of temperature and humidity (DHT22).
 - [x] Set up automatic decision-making for irrigation based on the climate data.
-- [ ] Create alerts for unusual temperature or humidity levels.
+- [x] Create alerts for unusual temperature or humidity levels.
 
 ### 3.2 Irrigation System
 
