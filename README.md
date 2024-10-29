@@ -37,6 +37,7 @@ Este projeto tem como objetivo a criação de um sistema de monitoramento utiliz
 - IDE Arduino (opcional para programação local).
 
 ### Passo a Passo
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/farm-solutions/Cap-12-A-Eletronica-de-uma-IA.git
@@ -46,13 +47,23 @@ Este projeto tem como objetivo a criação de um sistema de monitoramento utiliz
 3. Execute a simulação clicando em "Play".
 4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
 
-## 🔌 Desenho do Circuito e Sensores Utilizados
+## 🔌 Circuito
 
-- **DHT22**: Sensor de temperatura e umidade.
-- **LDR**: Sensor de luminosidade.
-- **HC-SR04**: Sensor ultrassônico para medição de distância.
+![Desenho do Circuito](/docs/circuit.png)
 
-Cada sensor desempenha uma função crítica no sistema, permitindo a coleta de dados essenciais para monitorar o ambiente.
+### Descrição do Papel de Cada Sensor no Sistema
+
+1. **DHT22 - Monitoramento de Temperatura e Umidade**  
+   Mede a temperatura e umidade do ambiente, dados essenciais para ajustar a irrigação conforme as condições climáticas.
+
+2. **HC-SR04 - Detecção do Nível de Água**  
+   Mede a distância até a superfície da água em reservatórios, garantindo que a irrigação só ocorra quando há nível suficiente.
+
+3. **Sensor PIR - Detecção de Movimento**  
+   Identifica presença de animais ou pessoas nas áreas monitoradas, ativando alertas de segurança para proteger a plantação.
+
+4. **LDR - Monitoramento da Intensidade de Luz**  
+   Avalia a quantidade de luz solar, ajustando a irrigação: menos água em dias ensolarados e mais em dias nublados, equilibrando a hidratação das plantas.
 
 ## 📦 Testes Realizados
 

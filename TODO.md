@@ -38,7 +38,6 @@
 
 ## 4. Testing
 
-- [ ] Write test cases for all sensor data collection functions.
 - [ ] Validate automatic decision-making for irrigation and alerts.
 - [ ] Test motion detection responses and adjust sensitivity.
 - [ ] Test light-based irrigation adjustments.
@@ -50,12 +49,12 @@
   - [ ] Include descriptions of sensors and their roles.
 - [ ] Ensure the `README.md` includes:
   - [ ] Project objective;
-  - [ ] Complete circuit design with the sensors used;
-  - [ ] Description of the role of each sensor in the system;
+  - [x] Complete circuit design with the sensors used;
+  - [x] Description of the role of each sensor in the system;
   - [ ] How to configure and run the project on Wokwi and ESP32;
   - [ ] Installation instructions and dependencies;
   - [ ] Tests performed, with prints of the Serial Monitor showing the system messages;
-- [ ] Well-commented code, explaining the logic behind the main functions and the integration between the sensors.
+- [x] Well-commented code, explaining the logic behind the main functions and the integration between the sensors.
 
 ## 6. Version Control
 
