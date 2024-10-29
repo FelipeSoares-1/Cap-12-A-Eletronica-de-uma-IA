@@ -48,10 +48,10 @@
   - [ ] Add description about the system
   - [ ] Include descriptions of sensors and their roles.
 - [ ] Ensure the `README.md` includes:
-  - [ ] Project objective;
+  - [x] Project objective;
   - [x] Complete circuit design with the sensors used;
   - [x] Description of the role of each sensor in the system;
-  - [ ] How to configure and run the project on Wokwi and ESP32;
+  - [x] How to configure and run the project on Wokwi and ESP32;
   - [ ] Installation instructions and dependencies;
   - [ ] Tests performed, with prints of the Serial Monitor showing the system messages;
 - [x] Well-commented code, explaining the logic behind the main functions and the integration between the sensors.

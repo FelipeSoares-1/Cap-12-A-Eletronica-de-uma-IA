@@ -25,27 +25,9 @@
 ### Coordenador(a)
 - [André Godoi Chiovato](https://www.linkedin.com/in/profandregodoi/)
 
-## 📜 Descrição
+## 📜 Objetivo
 
 Este projeto tem como objetivo a criação de um sistema de monitoramento utilizando a plataforma ESP32 e sensores específicos para ambientes. O circuito foi desenvolvido e simulado na plataforma Wokwi.com, onde cada sensor possui uma função específica dentro do sistema, permitindo o monitoramento de variáveis ambientais como temperatura, umidade e luminosidade.
-
-## 🔧 Como Executar o Código
-
-### Pré-requisitos
-- [Wokwi](https://wokwi.com/) para simulação de circuitos.
-- ESP32.
-- IDE Arduino (opcional para programação local).
-
-### Passo a Passo
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/farm-solutions/Cap-12-A-Eletronica-de-uma-IA.git
-   cd Cap-12-A-Eletronica-de-uma-IA
-   ```
-2. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/412368890543526913)
-3. Execute a simulação clicando em "Play".
-4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
 
 ## 🔌 Circuito
 
@@ -64,6 +46,20 @@ Este projeto tem como objetivo a criação de um sistema de monitoramento utiliz
 
 4. **LDR - Monitoramento da Intensidade de Luz**  
    Avalia a quantidade de luz solar, ajustando a irrigação: menos água em dias ensolarados e mais em dias nublados, equilibrando a hidratação das plantas.
+
+## 🔧 Como Rodar o Projeto
+
+### Pré-requisitos
+
+- [Wokwi](https://wokwi.com/) para simulação de circuitos.
+- ESP32.
+- IDE Arduino (opcional para programação local).
+
+### Passo a Passo
+
+1. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/412368890543526913)
+2. Execute a simulação clicando em "Play".
+4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
 
 ## 📦 Testes Realizados
 
