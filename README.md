@@ -27,7 +27,9 @@
 
 ## 📜 Objetivo
 
-Este projeto tem como objetivo a criação de um sistema de monitoramento utilizando a plataforma ESP32 e sensores específicos para ambientes. O circuito foi desenvolvido e simulado na plataforma Wokwi.com, onde cada sensor possui uma função específica dentro do sistema, permitindo o monitoramento de variáveis ambientais como temperatura, umidade e luminosidade.
+O objetivo deste projeto é desenvolver um sistema inteligente de monitoramento agrícola utilizando o microcontrolador ESP32 e uma combinação de sensores, incluindo DHT22, HC-SR04, PIR e LDR. O sistema visa coletar dados ambientais essenciais, como temperatura, umidade, nível de água, movimento e intensidade de luz, permitindo tomadas de decisão automatizadas para otimizar o uso de recursos hídricos e melhorar a segurança nas áreas agrícolas. Ao implementar esse sistema, espera-se aumentar a eficiência na irrigação, reduzir o desperdício de água e proporcionar um ambiente mais seguro e controlado para o cultivo, contribuindo assim para uma agricultura mais sustentável e produtiva.
+
+Veja mais detalhes em: [Projeto](/docs/project.md)
 
 ## 🔌 Circuito
 
@@ -46,6 +48,8 @@ Este projeto tem como objetivo a criação de um sistema de monitoramento utiliz
 
 4. **LDR - Monitoramento da Intensidade de Luz**  
    Avalia a quantidade de luz solar, ajustando a irrigação: menos água em dias ensolarados e mais em dias nublados, equilibrando a hidratação das plantas.
+
+Para mais informações sobre os sensores, acesse: [Sensores](/docs/sensors.md)
 
 ## 🔧 Como Rodar o Projeto
 
