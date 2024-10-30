@@ -61,7 +61,7 @@ Para mais informações sobre os sensores, acesse: [Sensores](/docs/sensors.md)
 
 ### Passo a Passo
 
-1. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/412368890543526913)
+1. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/413042987882945537)
 2. Execute a simulação clicando em "Play".
 4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
 
