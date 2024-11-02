@@ -64,4 +64,4 @@
 
 ## 7. Final Submission
 
-- [ ] Post the GitHub link to the student portal by the deadline.
+- [x] Post the GitHub link to the student portal by the deadline.
