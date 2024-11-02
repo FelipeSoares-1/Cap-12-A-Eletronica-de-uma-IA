@@ -25,46 +25,54 @@
 ### Coordenador(a)
 - [André Godoi Chiovato](https://www.linkedin.com/in/profandregodoi/)
 
-## 📜 Descrição
+## 📜 Objetivo
 
-Este projeto tem como objetivo a criação de um sistema de monitoramento utilizando a plataforma ESP32 e sensores específicos para ambientes. O circuito foi desenvolvido e simulado na plataforma Wokwi.com, onde cada sensor possui uma função específica dentro do sistema, permitindo o monitoramento de variáveis ambientais como temperatura, umidade e luminosidade.
+O objetivo deste projeto é desenvolver um sistema inteligente de monitoramento agrícola utilizando o microcontrolador ESP32 e uma combinação de sensores, incluindo DHT22, HC-SR04, PIR e LDR. O sistema visa coletar dados ambientais essenciais, como temperatura, umidade, nível de água, movimento e intensidade de luz, permitindo tomadas de decisão automatizadas para otimizar o uso de recursos hídricos e melhorar a segurança nas áreas agrícolas. Ao implementar esse sistema, espera-se aumentar a eficiência na irrigação, reduzir o desperdício de água e proporcionar um ambiente mais seguro e controlado para o cultivo, contribuindo assim para uma agricultura mais sustentável e produtiva.
 
-## 🔧 Como Executar o Código
+Veja mais detalhes em: [Projeto](/docs/project.md)
+
+## 🔌 Circuito
+
+![Desenho do Circuito](/docs/circuit.png)
+
+### Descrição do Papel de Cada Sensor no Sistema
+
+1. **DHT22 - Monitoramento de Temperatura e Umidade**  
+   Mede a temperatura e umidade do ambiente, dados essenciais para ajustar a irrigação conforme as condições climáticas.
+
+2. **HC-SR04 - Detecção do Nível de Água**  
+   Mede a distância até a superfície da água em reservatórios, garantindo que a irrigação só ocorra quando há nível suficiente.
+
+3. **Sensor PIR - Detecção de Movimento**  
+   Identifica presença de animais ou pessoas nas áreas monitoradas, ativando alertas de segurança para proteger a plantação.
+
+4. **LDR - Monitoramento da Intensidade de Luz**  
+   Avalia a quantidade de luz solar, ajustando a irrigação: menos água em dias ensolarados e mais em dias nublados, equilibrando a hidratação das plantas.
+
+Para mais informações sobre os sensores, acesse: [Sensores](/docs/sensors.md)
+
+## 🔧 Como Rodar o Projeto
 
 ### Pré-requisitos
+
 - [Wokwi](https://wokwi.com/) para simulação de circuitos.
 - ESP32.
 - IDE Arduino (opcional para programação local).
 
 ### Passo a Passo
-1. Clone o repositório:
-   ```bash
-   git clone <link-do-repositorio>
-   cd <nome-do-repositorio>
-   ```
-2. Abra o circuito no Wokwi:
-   - Acesse Wokwi.com e importe o arquivo JSON fornecido no repositório.
-3. Execute a simulação clicando em "Play".
+
+1. Abra o circuito no Wokwi: [Projeto no Wokwi](https://wokwi.com/projects/413042987882945537)
+2. Execute a simulação clicando em "Play".
 4. Acompanhe o monitoramento pelo Monitor Serial do Wokwi.
-
-## 🔌 Desenho do Circuito e Sensores Utilizados
-
-- **DHT22**: Sensor de temperatura e umidade.
-- **LDR**: Sensor de luminosidade.
-- **HC-SR04**: Sensor ultrassônico para medição de distância.
-
-Cada sensor desempenha uma função crítica no sistema, permitindo a coleta de dados essenciais para monitorar o ambiente.
 
 ## 📦 Testes Realizados
 
-Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor. Prints do Monitor Serial estão disponíveis na pasta `document/test-results`.
+Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor.
 
-## 🗃 Histórico de Lançamentos
+<img src="./tests/boot.png" alt="Test" width="480" height="auto">
+<img src="./tests/low_humidity.png" alt="Test" width="480" height="auto">
 
-* 1.0.0 - 21/10/2024
-    * Versão inicial do sistema com todos os sensores funcionando.
-* 0.5.0 - XX/XX/2024
-    * Ajustes nas leituras dos sensores.
+Mais prints do Monitor Serial estão disponíveis na pasta `tests/`.
 
 ## 📋 Licença
 
