@@ -39,14 +39,13 @@ void monitoramentoClimatico() {
     Serial.println("Erro na leitura do DHT22!");
     return;
   }
-
-  Serial.printf("Temperatura: %.2f °C | Umidade: %.2f %%\n", temperatura, umidade);
+  Serial.printf("\n1. - MONITORAMENTO CLIMÁTICO: Temperatura: %.2f °C | Umidade: %.2f %%\n", temperatura, umidade);
 
   if (umidade < 50) {
-    Serial.println("Umidade baixa. Aumentando a irrigação.");
+    Serial.println("1a - ALERTA E AÇÃO: Umidade baixa. Aumentando a irrigação.");
     // Aqui você pode acionar a bomba d'água
   } else {
-    Serial.println("Umidade adequada. Irrigação normal.");
+    Serial.println("1a - ALERTA E AÇÃO: Umidade adequada. Irrigação normal.");
   }
 }
 
@@ -60,12 +59,12 @@ void controleIrrigacao() {
   long duracao = pulseIn(ECHO_PIN, HIGH);
   float distancia = duracao * 0.034 / 2;  // Converte para cm
 
-  Serial.printf("Nível do tanque: %.2f cm\n", distancia);
+  Serial.printf("\n2 - SENSOR HC-SR04 > Nível do tanque: %.2f cm \n", distancia);
 
   if (distancia > 10) {
-    Serial.println("Nível de água insuficiente. Irrigação suspensa.");
+    Serial.println("2a - ALERTA E AÇÃO: Nível de água insuficiente. Irrigação suspensa.");
   } else {
-    Serial.println("Nível de água adequado. Irrigação ativada.");
+    Serial.println("2a - ALERTA E AÇÃO: Nível de água adequado. Irrigação ativada.");
     // Acionar bomba d'água
   }
 }
@@ -74,26 +73,28 @@ void deteccaoPresenca() {
   int movimento = digitalRead(PIR_PIN);
 
   if (movimento) {
-    Serial.println("Movimento detectado! Acionando alarme.");
+    Serial.println("\n3 - Teste de detectação de Movimento (PIR): Movimento detectado!");
+    Serial.println("3a - ALERTA E AÇÃO: Movimento detectado! Acionando alarme.");
     // Pode acionar um alarme ou acender uma luz
   } else {
-    Serial.println("Sem movimento.");
+    Serial.println("3a - ALERTA: Sem movimento.");
   }
 }
 
 void ajusteIrrigacaoLuminosidade() {
   int luzAnalogica = analogRead(LDR_AO_PIN);
 
-  Serial.printf("Intensidade da luz: %d\n", luzAnalogica);
+  Serial.printf("\n4 - Intensidade da luz: %d\n", luzAnalogica);
 
   if (luzAnalogica < 800) {
-    Serial.println("Dia ensolarado. Reduzindo irrigação.");
+    Serial.println("4a - ALERTA E AÇÃO: Dia ensolarado. Reduzindo irrigação.");
   } else {
-    Serial.println("Dia nublado. Aumentando irrigação.");
+    Serial.println("4a - ALERTA E AÇÃO: Dia nublado. Aumentando irrigação.");
   }
 }
 
 void loop() {
+  Serial.printf("\nINICIANDO TRATATIVAS DE DADOS\n");
   monitoramentoClimatico();
   controleIrrigacao();
   deteccaoPresenca();
