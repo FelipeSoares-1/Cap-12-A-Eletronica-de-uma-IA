@@ -67,7 +67,12 @@ Para mais informações sobre os sensores, acesse: [Sensores](/docs/sensors.md)
 
 ## 📦 Testes Realizados
 
-Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor. Prints do Monitor Serial estão disponíveis na pasta `tests/`.
+Durante o desenvolvimento, foram realizados testes para validar o funcionamento de cada sensor.
+
+<img src="./tests/boot.png" alt="Test" width="480" height="auto">
+<img src="./tests/low_humidity.png" alt="Test" width="480" height="auto">
+
+Mais prints do Monitor Serial estão disponíveis na pasta `tests/`.
 
 ## 📋 Licença
 

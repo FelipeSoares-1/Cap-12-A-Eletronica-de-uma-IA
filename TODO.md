@@ -38,29 +38,29 @@
 
 ## 4. Testing
 
-- [ ] Validate automatic decision-making for irrigation and alerts.
-- [ ] Test motion detection responses and adjust sensitivity.
-- [ ] Test light-based irrigation adjustments.
+- [x] Validate automatic decision-making for irrigation and alerts.
+- [x] Test motion detection responses and adjust sensitivity.
+- [x] Test light-based irrigation adjustments.
 
 ## 5. Documentation
 
 - [x] Complete detailed documentation in `/docs`.
   - [x] Add description about the system
   - [x] Include descriptions of sensors and their roles.
-- [ ] Ensure the `README.md` includes:
+- [x] Ensure the `README.md` includes:
   - [x] Project objective;
   - [x] Complete circuit design with the sensors used;
   - [x] Description of the role of each sensor in the system;
   - [x] How to configure and run the project on Wokwi and ESP32;
   - [x] Installation instructions and dependencies;
-  - [ ] Tests performed, with prints of the Serial Monitor showing the system messages;
+  - [x] Tests performed, with prints of the Serial Monitor showing the system messages;
 - [x] Well-commented code, explaining the logic behind the main functions and the integration between the sensors.
 
 ## 6. Version Control
 
 - [x] Make regular commits with clear descriptions.
 - [x] Use a separate branch (e.g., `develop`) for development.
-- [ ] Submit Pull Requests for review before merging to `main`.
+- [x] Submit Pull Requests for review before merging to `main`.
 
 ## 7. Final Submission
 
